@@ -1,0 +1,39 @@
+.cover__overlay {
+    max-width: 1184px;
+    min-height: 740px;
+    position: relative;
+    background-size: cover;
+    background-image: url(../../../images/cover__background.png);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.cover__overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(42, 44, 47, .3);
+    z-index: 1;
+}
+
+.cover__overlay:hover::before {
+    background-color: rgba(42, 44, 47, .8);
+}
+
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        max-width: 320px;
+        min-height: 200px;
+      
+    
+    }
+}

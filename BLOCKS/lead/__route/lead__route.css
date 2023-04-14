@@ -2,5 +2,34 @@
     
     margin: auto;
     margin-top: 90.21px;
-    margin-left: 23.27px;
+    width: 937.09px;
+height: 262.99px;
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .lead__route {
+        width: 883.76px;
+height: 248.02px;
+        margin-top: 85.07px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__route {
+        width: 731.38px;
+        height: 205.26px;
+        margin-top: 70.41px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .lead__route {
+        max-width: 304.74px;
+        max-height: 85.53px;
+        margin-top: 29.34px;
+    }
 }

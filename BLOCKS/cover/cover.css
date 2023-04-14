@@ -1,0 +1,13 @@
+.cover {
+    margin: 92px auto;  
+
+}
+
+
+@media screen and (max-width:320px) {
+    .cover {
+        margin-top: 66px;
+        margin-bottom: 64px;
+
+    }
+}
