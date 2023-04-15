@@ -5,21 +5,21 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid__item {
-        width: 300px;
-        height: 225px;
+        min-width: 300px;
+        min-height: 225px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid__item {
-        width: 352px;
-        height: 264px;
+        min-width: 352px;
+        min-height: 264px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .photo-grid__item {
-        width: 100%;
-        max-height: 214px;
+        min-width: 100%;
+        min-height: 214px;
     }
 }
