@@ -1,18 +1,17 @@
 .lead__route {
-    
+    display: block;
     margin: auto;
     margin-top: 90.21px;
-    width: 937.09px;
-height: 262.99px;
+    max-width: 937.09px;
+    max-height: 262.99px;
 
 }
-
 
 
 @media screen and (max-width: 1024px) {
     .lead__route {
         width: 883.76px;
-height: 248.02px;
+        height: 248.02px;
         margin-top: 85.07px;
     }
 }
@@ -23,6 +22,7 @@ height: 248.02px;
         height: 205.26px;
         margin-top: 70.41px;
     }
+  
 }
 
 

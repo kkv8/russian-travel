@@ -11,15 +11,21 @@ line-height: 29.34px;
     margin-top: 26px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .place__paragraph {
-        max-width: 288px;
         font-size: 16px;
-line-height: 26.08px;
+        line-height: 26px;
 
     }
 
     .place__paragraph:nth-of-type(2) {
         margin-top: 25px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        max-width: 288px;
     }
 }

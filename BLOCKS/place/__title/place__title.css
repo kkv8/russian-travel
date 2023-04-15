@@ -9,6 +9,15 @@
     grid-area: title;
 }
 
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        min-width: 340px;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .place__title {
         min-width: 288px;
@@ -18,4 +27,3 @@
         
     }
 }
-
