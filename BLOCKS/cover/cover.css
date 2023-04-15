@@ -1,13 +1,11 @@
 .cover {
     margin: 92px auto;  
-
 }
 
 @media screen and (max-width:768px) {
     .cover {
         margin-top: 90px;
         margin-bottom: 88px;
-
     }
 }
 
@@ -15,6 +13,5 @@
     .cover {
         margin-top: 66px;
         margin-bottom: 64px;
-
     }
 }

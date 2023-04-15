@@ -1,5 +1,4 @@
 .lead {
-    border: 2px solid yellow;
     display: flex;
     margin: auto;
     margin-top: 56px;
@@ -8,7 +7,6 @@
     max-width: 984px;
 }
 
-
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
@@ -16,12 +14,8 @@
     }
 }
 
-
-
-
 @media screen and (max-width: 320px) {
     .lead {
         width: 100%;
-       
     }
 }

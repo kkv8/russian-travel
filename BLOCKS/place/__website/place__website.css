@@ -1,6 +1,5 @@
 .place__website {
    grid-area: website;
-  border: 2px solid forestgreen;
    align-self: end;
 }
 

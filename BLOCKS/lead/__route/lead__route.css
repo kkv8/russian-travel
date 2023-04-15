@@ -4,9 +4,7 @@
     margin-top: 90.21px;
     max-width: 937.09px;
     max-height: 262.99px;
-
 }
-
 
 @media screen and (max-width: 1024px) {
     .lead__route {
@@ -24,7 +22,6 @@
     }
   
 }
-
 
 @media screen and (max-width: 320px) {
     .lead__route {
