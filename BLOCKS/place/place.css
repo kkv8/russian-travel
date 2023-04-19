@@ -31,6 +31,14 @@
     }
 }
 
+@media screen and (max-width: 591px) {
+    .place {
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place {
         width: 100%;

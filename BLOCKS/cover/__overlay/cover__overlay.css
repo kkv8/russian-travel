@@ -2,8 +2,10 @@
     max-width: 1184px;
     min-height: 740px;
     position: relative;
-    background-size: cover;
-    background-image: url(../../../images/cover__background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../images/cover__background.jpg);
+    background-position: center;
     display: flex;
     margin: auto;
     flex-direction: column;
@@ -12,7 +14,6 @@
     text-decoration: none;
     color: white;
     cursor: pointer;
-   
 }
 
 .cover__overlay::before {
@@ -42,7 +43,6 @@
 
 @media screen and (max-width: 768px) {
     .cover__overlay {
-        width: 100%;
         min-height: 480px;
     }
 }
