@@ -28,5 +28,6 @@
     .photo-grid {
         grid-template-columns: 288px;
         gap: 12px;
+        margin: 64px auto;
     }
 }
